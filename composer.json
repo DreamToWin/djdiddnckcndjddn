@@ -1,0 +1,7 @@
+{
+    "require":{
+        "monolog/monolog": "1.7.*@dev",
+	"swiftmailer/swiftmailer": "5.1.*@dev",
+	"facebook/php-sdk": "dev-master"
+    }
+}

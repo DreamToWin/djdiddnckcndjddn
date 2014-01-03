@@ -1,0 +1,395 @@
+body {
+    padding-top: 90px;
+}
+/** CUSTOM SEARCH **/
+@media (min-width: 970px) {
+    .navbar  .navbar-form{
+        width: 250px;
+    }
+    .navbar  .navbar-form input{
+        width: 200px;
+    }
+}
+
+@media (min-width: 1170px) {
+    .navbar  .navbar-form{
+        width: 490px;
+    }
+    .navbar  .navbar-form input{
+        width: 440px;
+    }
+}
+
+/** HEADER **/
+.upload-video{
+    color: red;
+}
+
+
+/** CONTENT **/
+.panel-heading h3.panel-title{
+    margin: 0px;
+    font-size: 17.5px;
+}
+
+.panel-heading h3.panel-title a{
+    font-weight: 500;
+}
+.panel-heading h3.panel-title strong{
+    font-weight: normal;
+}
+
+/* LIST VIEW HOME PAGE */
+.list-video  .item-video{
+    min-height: 190px;
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .list-video  .item-video{
+        min-height: 175px;
+    }
+    .index-page .item-video{
+        min-height: 200px;
+    }
+}
+
+@media(min-width: 1000px) and (max-width: 1199px){
+    .list-video  .item-video{
+        min-height: 200px;
+    }
+}
+
+.list-video  .panel-body{
+    padding-bottom: 0px;
+}
+.item-video img{
+    display: block;
+    margin: 0px auto;
+}
+.item-video  h2.title-video{
+    line-height: 14px;
+    margin-top: 8px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.item-video  h2.title-video a{
+    font-size: 12px;
+}
+
+.item-video ul.metadata{
+    font-size: 10px;
+}
+/** SIDEBAR **/
+.nav-sidebar li a:hover{
+    background: none;
+}
+
+.tab-content{
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.boxes{
+    margin: 0px 0px 20px 0px;
+}
+
+/*** LIST USER TOP ***/
+.user-top, .item{
+    padding: 0px 5px;
+}
+
+.user-top .item{
+    margin: 0px 0px 5px 0px;
+}
+
+.user-top .item .thumb{
+    padding: 0px;
+}
+
+.user-top .item .info{
+    padding: 0px;
+    padding-left: 5px;
+}
+.user-top .item .info a{
+    font-size: 12px;
+    display: block;
+}
+.user-top  .item .info span{
+    font-size: 10px;
+}
+
+
+/** FOOTER **/
+.bs-footer{
+    margin-top: 20px;
+}
+.bs-footer p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+}
+.footer-links {
+    padding-left: 0;
+    font-size: 12px;
+}
+.footer-links li {
+    display: inline;
+    padding: 0 2px;
+}
+.footer-links li:first-child {
+    padding-left: 0;
+}
+
+/******** PAGE *****/
+/** PAGE VIDEO DETAIL **/
+.nav > li > a {
+    padding: 10px;
+}
+.title-panel-body{
+    padding: 0px;
+    margin: -5px 0px 5px 0px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.metada-panel-body{
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #585858;
+}
+
+.metada-panel-body li{
+    padding-right: 10px;
+}
+
+#my-player_wrapper{
+    z-index: 1;
+}
+
+.info-video{
+    margin-top: 10px;
+}
+
+.info-video .avatar{
+    padding-right: 0px;
+}
+
+.info-video .metadata .list-inline li{
+    padding: 0px 2px;
+}
+
+.info-video .metadata .list-inline li span{
+    font-size: 10px;
+}
+
+.total-view {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+}
+
+.description{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.description .tab-pane{
+    padding: 5px 10px;
+    font-size: 12px;
+    border: none;
+}
+
+.fb-comments, .fb-comments span[style], .fb-comments iframe[style] {width: 100% !important;}
+
+/*** LIST VIDEO CATEGORY ***/
+.video-category .item{
+    margin-bottom: 10px;
+}
+.video-category .item:last-child{
+    margin-bottom: 0px;
+}
+.video-category .thumb{
+    padding: 0 10px 0px 5px;
+}
+.video-category .metadata{
+    padding: 0px;
+}
+.video-category .metadata h2{
+    padding: 0px;
+    margin: 0px 0px 8px 0px;
+    font-size: 13px;
+    font-weight: bold;
+    max-height: 29px;
+    overflow: hidden;
+}
+.video-category .metadata .by,.video-category .metadata .view-count{
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #999999;
+}
+
+/*** ADV ***/
+.adv{
+    
+    margin-bottom: 15px;
+}
+
+
+/*** PAGE ACCOUNT ***/
+.btn-custom{
+    text-indent: -9999px;
+    height: 35px;
+    width: 126px;
+    display: inline-block;
+    background: url(../img/idb-button.png) no-repeat transparent;
+}
+.btn-fb{
+    background-position: -1px -204px;
+    margin-right: 5px;
+}
+.btn-gl{
+
+    background-position: -1px -163px;
+}
+
+
+/*** CHANEL ***/
+.list-action-chanel > li{
+    padding-right: 15px;
+}
+.list-action-chanel a{
+    text-decoration: none;
+    cursor: pointer
+}
+
+.list-action-chanel .active{
+    border-bottom: 3px solid #CC181E;
+    color: #000;
+    padding: 0 0 5px;
+}
+
+.loading{
+    display: none;
+}
+
+#load-more{
+    margin-bottom: 15px;
+}
+
+#video_template{
+    display: none;
+}
+
+/** Form **/
+.error-field{
+    color: #B94A48;
+    font-size: 11px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+
+/** Play List **/
+#playlist .row{
+   margin-bottom: 10px; 
+}
+#playlist .row:last-child{
+    margin-bottom: 0px;
+}
+.playlist{
+    list-style: none;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+}
+
+.playlist-item{
+    padding: 5px 10px;
+    margin: 0px 0px 8px 0px;
+}
+
+.playlist-item a{
+    color: #000;
+}
+
+.playlist-item:hover a{
+    color: #fff;
+}
+
+.playlist-item:hover{
+    background: #6a6a6a;
+    color: #fff;
+}
+
+.playlist-item:last-child{
+    margin-bottom: 0px;
+}
+
+.playlist-title{
+    font-weight: bold;
+    overflow: hidden;
+}
+
+
+.create-playlist .nopadding{
+    padding: 0px 5px 0px 0px;
+}
+
+.create-playlist .nopadding:last-child{
+    padding: 0px;
+}
+
+
+
+/*FIX BUG*/
+#my-player{
+    position: relative;
+    z-index: 1;
+}
+
+.fb-like{
+    position: relative;
+    z-index: 2;
+}
+
+.btn-more{
+    margin-bottom: 15px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*news*/
+.no-margin{
+    margin: 0px;
+}
+.news h2{
+    font-size: 18px;
+    margin: 0px;
+}
+
+.news p.summary{
+    text-align: justify;
+}
+
+.news .pagination{
+    margin: 0px;
+}

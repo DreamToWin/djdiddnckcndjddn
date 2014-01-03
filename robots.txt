@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: 
+Disallow: /application/
+Disallow: /publics/
+Disallow: /system/
+Disallow: sitemap.xml
+Disallow: sitemap_category.xml
+Sitemap: http://123xem.vn/sitemap.gz

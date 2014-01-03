@@ -1,0 +1,14 @@
+<FilesMatch "\.(html|php|htm|xml|txt|xsl)$">
+    <IfModule mod_expires.c>
+     Header set Cache-Control "max-age=7200, must-revalidate"
+     Header append Vary Accept-Encoding
+     Header append Accept-Encoding "gzip"
+    </IfModule>
+</FilesMatch>
+RewriteEngine on
+RewriteCond $1 !^(index\.php|publics|errors|robots\.txt|sitemap\.xml|sitemap_category\.xml|sitemap\.xml\.gz|sitemap_category\.xml\.gz|sitemap_video\.xml|sitemap_video\.gz\.xml|logo\.png)
+RewriteRule ^(.*)$ index.php/$1 [L]
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+ErrorDocument 404 /errors/404.html
+
