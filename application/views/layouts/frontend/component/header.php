@@ -61,6 +61,9 @@
                                     <li>
                                         <a href="<?php echo site_url('upload'); ?>"><strong class="upload-video"><i class="glyphicon glyphicon-upload"></i> Đăng Video</strong></a>
                                     </li>
+                                    <li>
+                                        <a href="<?php echo site_url('news'); ?>">Tin tức <img src="<?php echo site_url('publics/frontend/img/hot.gif'); ?>" alt="Tin HOT" /></a>
+                                    </li>
                                     <?php if (!loggedin()): ?>
                                         <li><a href="<?php echo site_url('account#register'); ?>">Đăng ký</a></li>
                                     <?php endif; ?>

@@ -11,7 +11,7 @@ class News extends Frontend_Controller {
     function index($page = 1) {
         $this->load->library('paginationlib');
         $count = $this->news_model->count_news();
-        $pagingConfig = $this->paginationlib->initPagination('news/page', $count, 1, 3);
+        $pagingConfig = $this->paginationlib->initPagination('news/page', $count, 10, 3);
         $data = $this->news_model->get_news($pagingConfig['per_page'], (($page - 1) * $pagingConfig['per_page']));
         $this->data['news'] = $data;
         $this->data['pagination'] = $this->pagination->create_links();

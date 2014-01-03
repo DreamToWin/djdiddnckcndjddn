@@ -6,6 +6,7 @@
     <div class="container">
         <p>Copyright &copy; 123Xem.VN - Mạng chia sẻ video hài hước HOT nhất Việt Nam. Thư điện tử: 123xem.vn@gmail.com </p>
         <ul class="footer-links">
+            <li><a href="<?php echo site_url('news'); ?>">Tin tức</a></li>
             <li><a href="<?php echo site_url('contact'); ?>">Liên hệ</a></li>
             <li class="muted">·</li>
             <li><a href="<?php echo site_url('about'); ?>">Giới thiệu</a></li>
